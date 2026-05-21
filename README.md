@@ -38,7 +38,7 @@ Ejercicio 1: Base de Datos de Películas desde API (Adalab Movies DB)
     
 --- Ejercicio 2: Análisis Avanzado sobre la Base de Datos Sakila ---
 
-Resolución de retos analíticos utilizando el entorno de **Sakila**, una base de datos que simula las operaciones de un videoclub tradicional (tablas interconectadas como film, actor, customer, rental y category. 
+Resolución de retos analíticos utilizando el entorno de Sakila, una base de datos que simula las operaciones de un videoclub tradicional (tablas interconectadas como film, actor, customer, rental y category. 
 
 Las consultas desarrolladas se dividen en:
 
