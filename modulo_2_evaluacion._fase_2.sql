@@ -38,8 +38,8 @@ SELECT COUNT(*) AS peliculas_mas_120
 FROM tabla_peliculas
 WHERE duracion > 120;
 
--- NOTA: La pregunta "¿Cuántas películas incluyen subtítulos en español?" 
--- no se puede responder la API ya que no provee ese dato.
+-- ¿Cuántas películas incluyen subtítulos en español?
+-- no se puede responder la API no provee ese dato.
 
 -- ¿Cuántas películas tienen contenido adulto?
 SELECT COUNT(*) AS peliculas_adultos 
