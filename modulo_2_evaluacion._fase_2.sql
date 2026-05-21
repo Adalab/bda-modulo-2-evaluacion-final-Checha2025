@@ -1,12 +1,12 @@
--- =============================================================================
+
 -- EVALUACIÓN FINAL MÓDULO 2 - FASE 2 & FASE 4 (Películas extraídas de API)
--- =============================================================================
+
 
 -- 1. CREACIÓN DE LA BASE DE DATOS Y ENTORNO
 CREATE DATABASE peliculas_adalab;
 USE peliculas_adalab;
 
--- 2. CREACIÓN DE TABLAS (DDL)
+-- 2. CREACIÓN DE TABLAS 
 CREATE TABLE tabla_generos (
     id_genero INT AUTO_INCREMENT PRIMARY KEY,
     nombre_genero VARCHAR(50) NOT NULL UNIQUE
@@ -26,11 +26,10 @@ CREATE TABLE tabla_peliculas (
         ON UPDATE CASCADE
 );
 
--- =============================================================================
--- FASE 4: CONSULTAS DE OBTENCIÓN DE INFORMACIÓN
--- =============================================================================
 
--- Comprobación inicial de carga de datos
+-- FASE 4: CONSULTAS DE OBTENCIÓN DE INFORMACIÓN
+
+-- Comprobación de carga de datos
 SELECT * FROM tabla_generos;
 SELECT * FROM tabla_peliculas;
 
@@ -40,7 +39,7 @@ FROM tabla_peliculas
 WHERE duracion > 120;
 
 -- NOTA: La pregunta "¿Cuántas películas incluyen subtítulos en español?" 
--- no se puede responder con el modelo actual de la API ya que no provee ese dato.
+-- no se puede responder la API ya que no provee ese dato.
 
 -- ¿Cuántas películas tienen contenido adulto?
 SELECT COUNT(*) AS peliculas_adultos 
