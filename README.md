@@ -38,4 +38,4 @@ Instrucciones de Instalación y Ejecución
 Sigue estos pasos para arrancar el proyecto en tu máquina local:
 
 1. Clonar el Repositorio
-Clona este repositorio de GitHub Classroom en tu ordenador y accede al directorio del proyecto:
+Clona este repositorio de GitHub Classroom en tu ordenador y accede al directorio del proyecto.
