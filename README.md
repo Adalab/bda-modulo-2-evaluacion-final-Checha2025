@@ -16,7 +16,7 @@ El proyecto está organizado en los siguientes archivos principales:
 
 🛠️ Tecnologías y Herramientas Utilizadas
 
-- Lenguajes:** Python 3.x, SQL (Dialecto MySQL)
+- Lenguajes: Python 3.x, SQL (Dialecto MySQL)
 - Entornos de Desarrollo: Jupyter Notebook, MySQL Workbench, Visual Studio Code
 - Librerías de Python: requestes, pandas
 
