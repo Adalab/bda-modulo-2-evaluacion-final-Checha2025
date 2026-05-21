@@ -6,7 +6,7 @@ El proyecto se organiza a través de los siguientes archivos principales:
 
 1. enunciado_final_modulo_2_fase_1.ipynb: Jupyter Notebook enfocado en la conexión a la API pública, control de errores, procesamiento de la respuesta JSON y estructuración de los primeros 100 registros en un DataFrame de Pandas.
 2. modulo_2_evaluacion._fase_2.sql: Script SQL con las sentencias DDL necesarias (`CREATE DATABASE`, `CREATE TABLE`) para definir el esquema conceptual, los tipos de datos, restricciones y claves de la nueva base de datos cinematográfica.
-3. SQL_sakila;.sql: Script SQL que recopila la resolución completa de las 15 consultas analíticas avanzadas solicitadas sobre la base de datos de una tienda de alquiler de vídeos (Sakila).
+3. Ejercicio_2_Base _de _Datos _Sakila.sql: Script SQL que recopila la resolución completa de las 15 consultas analíticas avanzadas solicitadas sobre la base de datos de una tienda de alquiler de vídeos (Sakila).
 
 Tecnologías y Herramientas Utilizadas
 
