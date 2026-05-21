@@ -27,10 +27,11 @@ Detalle de los Ejercicios y Fases
 Ejercicio 1: Base de Datos de Películas desde API (Adalab Movies DB)
 
 
-- Fase 1 (Extracción):** Conexión al endpoint de la API (`https://beta.adalab.es/resources/apis/pelis/pelis.json`) para capturar información estructurada de 100 películas. Los campos transformados e inspeccionados incluyen: Título, Año de lanzamiento, Duración (min), Género y Contenido para adultos.
-- 
+- Fase 1: Conexión al endpoint de la API: https://beta.adalab.es/resources/apis/pelis/pelis.json , para capturar información estructurada de 100 películas. Los campos transformados e inspeccionados incluyen: Título, Año de lanzamiento, Duración (min), Género y Contenido para adultos.
+  
 - Fase 2: Diseño y creación de la base de datos relacional en MySQL ejecutando comandos DDL.
 - Fase 3: El bloque automatiza la carga de datos para que no tengas que preocuparte por el registro manual. Una vez guardados, permite lanzar consultas SQL de forma sencilla para:
+  
   * Filtrar por la duración de cada película.
   * Agrupar los resultados por género cinematográfico.
   * Ordenar todo de forma cronológica.
@@ -38,7 +39,7 @@ Ejercicio 1: Base de Datos de Películas desde API (Adalab Movies DB)
     
 --- Ejercicio 2: Análisis Avanzado sobre la Base de Datos Sakila ---
 
-Resolución de retos analíticos utilizando el entorno de Sakila, una base de datos que simula las operaciones de un videoclub tradicional (tablas interconectadas como film, actor, customer, rental y category. 
+Resolución utilizando el entorno de Sakila, una base de datos que simula las operaciones de un videoclub tradicional (tablas interconectadas como film, actor, customer, rental y category. 
 
 Las consultas desarrolladas se dividen en:
 
